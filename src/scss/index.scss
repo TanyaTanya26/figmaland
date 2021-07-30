@@ -1,5 +1,96 @@
-$red: red;
 
-h1 {
-    color: $red;
+
+.container{
+    max-width: 1583px;
+    margin: 0 auto;
+}
+.button {
+    display: inline-block;
+    background-color: transparent;
+    border: 1px solid #fff;
+    text-decoration: none;
+    flex-direction: column;
+    border-radius: 39px;
+    padding: 18px 46px;
+
+}
+.main-header{
+    padding: 30px 190px 85px;
+    background: linear-gradient(230.95deg, #CB1AE8 -0.37%, #37BDA6 100%);
+}
+.main-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    color: #FFFFFF;
+    line-height: 27px;
+    
+}
+.main-header-logo{
+    justify-content: left;
+}
+.main-header-item li+li{
+    padding-left: 50px;
+    
+}
+.main-header-text{
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.management{
+    padding: 60px 156px;
+}
+
+.management h2{
+    text-align: center;
+    padding-bottom: 100px;
+}
+.management li{
+    align-items: flex-start;
+    padding: 40px 50px;
+    background: #FFFFFF;
+    border: 1px solid #DEDEDE;
+    box-sizing: border-box;
+    /* shadow */    
+    box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    margin: 0 31px;
+}
+.process {
+    padding: 110px 240px;
+    display: flex;
+    justify-content: space-between;
+}
+.button {
+    border: 1px solid #30D7BA;
+    margin-right: 22px;
+}
+.Finance {
+    display: flex;
+    justify-content: space-between;
+    padding: 110px 220px;
+}
+.business {
+    display: flex;
+    justify-content: space-between;
+    padding: 73px 164px;
+}
+.Pricing {
+    padding: 50px 256px 85px;
+    text-align: center;
+}
+
+.Pricing-item{
+    display: flex;
+    justify-content:space-between;
+
+}
+.Pricing-item li{
+    width: 335px;
+    border: 1px solid #DEDEDE;
+    font-size: 15px;
+    line-height: 27px;
 }

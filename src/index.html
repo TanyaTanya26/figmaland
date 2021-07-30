@@ -1,24 +1,35 @@
 @@include('parts/header.html')
 
 
-<header>
-    <nav>
-        <h2></h2>
-        <ul>
-            <li>logo</li>
-            <li><a href="#">Home</a></li>
-            <li><a href="#" >Product</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-        <a href="#">Sign up</a>
-    </nav>
-    <h1>Find the Best Solution in Seconds</h1>
-    <h2>If debugging is the process of removing software bugs.</h2>
-    <img src="#" alt="graphic">
+<header class="main-header">
+    
+        <nav class="main-nav container">
+            <div class="main-header-logo">
+                <a href="#"><img src="#"alt="Figmaland"></a>
+            </div>
+            <div class="main-header-item">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#" >Product</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div>
+                <a class="button" href="#">Sign up</a>
+            </div>
+        </nav>
+        <div class="main-header-text">
+            <h1>Find the Best Solution in Seconds</h1>
+            <h2>If debugging is the process of removing software bugs.</h2>
+            <img src="#" alt="graphic">
+            <a class="button" href="#">get started</a>
+            <a class="button" href="#">try for free</a>
+        </div>
 </header>
+
 <main>
-    <section>
+    <section class="management container">
         <h2>FigmaLand was Built Specifically for You</h2>
         <ul>
             <li>
@@ -42,33 +53,45 @@
         </ul>
     </section>
 
-    <section>
-        <h2>Quick & Easy Process</h2>
+    <section class="process container">
+        <div>
+            <h2>Quick & Easy Process</h2>
         <p>Most calendars are designed for teams. Slate is designed for freelancers who want a simple way to plan their schedule.</p>
-            <a href="#">sign up for free</a>
-            <a href="#">find out more</a>
+            <a class="button" href="#">sign up for free</a>
+            <a class="button" href="#">find out more</a>
+        </div>
+        <div>
             <img src="#" alt="graphics">
+        </div>
     </section>
 
-    <section>
-        <img src="#" alt="List">
-        <h2>Perfect for Operations HR and Finance</h2>
-        <p>Most calendars are designed for teams. Slate is designed for freelancers who want a simple way to plan their schedule.</p>
-        <a href="#">Button</a>
+    <section class="Finance container">
+        <div>
+            <img src="#" alt="List">
+        </div>
+        <div>
+            <h2>Perfect for Operations HR and Finance</h2>
+            <p>Most calendars are designed for teams. Slate is designed for freelancers who want a simple way to plan their schedule.</p>
+            <a class="button" href="#">Button</a>
+        </div>
     </section>
 
-    <section>
-        <h2>Perfect solution for small businesse</h2>
-        <p>Being a freelancer is a rollercoaster of emotions. We built Slate to keep your freelance business less stressful. We'd love to show you what we're building...</p>
-        <a href="#">sign up for free</a>
-        <a href="#">find out more</a>
-        <img src="#" alt="Group">
+    <section class="business container">
+        <div>
+            <h2>Perfect solution for small businesse</h2>
+            <p>Being a freelancer is a rollercoaster of emotions. We built Slate to keep your freelance business less stressful. We'd love to show you what we're building...</p>
+            <a class="button" href="#">sign up for free</a>
+            <a class="button" href="#">find out more</a>
+        </div>
+        <div>
+            <img src="#" alt="meeting">
+        </div>
     </section>
 
-    <section>
+    <section class="Pricing container">
         <h2>Simple Pricing for Your Team</h2>
         <p>Slate helps you see how many more days you need </p>
-        <ul>
+        <ul class="Pricing-item">
             <li>
                 <h3>Education</h3>
                 <p>Brief price Description</p>
@@ -79,7 +102,7 @@
                 <p>Facebook & Instagram Ads</p>
                 <p>Order Notifications</p>
                 <p>Landing Pages</p>
-                <a href="#">Order Now</a>
+                <a class="button" href="#">Order Now</a>
             </li>
             <li>
                 <h3>Professional</h3>
@@ -91,7 +114,7 @@
                 <p>Facebook & Instagram Ads</p>
                 <p>Order Notifications</p>
                 <p>Landing Pages</p>
-                <a href="#">Order Now</a>
+                <a class="button" href="#">Order Now</a>
             </li>
             <li>
                 <h3>Business</h3>
@@ -103,7 +126,7 @@
                 <p>Facebook & Instagram Ads</p>
                 <p>Order Notifications</p>
                 <p>Landing Pages</p>
-                <a href="#">Order Now</a>
+                <a class="button" href="#">Order Now</a>
             </li>
         </ul>
     </section>
