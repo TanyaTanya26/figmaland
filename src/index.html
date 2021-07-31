@@ -1,6 +1,18 @@
-@@include('parts/header.html')
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap">
+    <link rel="stylesheet" href="index.css">
+</head>
 
-
+<body>
 <header class="main-header">
     
         <nav class="main-nav container">
@@ -22,30 +34,31 @@
         <div class="main-header-text">
             <h1>Find the Best Solution in Seconds</h1>
             <h2>If debugging is the process of removing software bugs.</h2>
-            <img src="#" alt="graphic">
+            
             <a class="button" href="#">get started</a>
             <a class="button" href="#">try for free</a>
+            <img src="../img/screen.png" alt="graphic">
         </div>
 </header>
 
 <main>
     <section class="management container">
         <h2>FigmaLand was Built Specifically for You</h2>
-        <ul>
-            <li>
-                <svg>#</svg>
+        <ul class="management-list">
+            <li class="management-list-li">
+                <img src="../img/Vector1.svg" alt="Vector1">
                 <h3>Management</h3>
                 <p>Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</p>
                 <a href="#">Learn More</a>
                 </li>
-             <li>
-                <svg>#</svg>
+             <li class="management-list-li activ">
+                <img src="../img/Vector2.svg" alt="Vector2">
                 <h3>Customer Support</h3>
                 <p>Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</p>
                 <a href="#">Learn More</a>
             </li>
-            <li>
-                <svg>#</svg>
+            <li class="management-list-li">
+                <img src="../img/Vector3.svg" alt="Vector3">
                 <h3>Collaborative</h3>
                 <p>Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</p>
                 <a href="#">Learn More</a>
@@ -54,14 +67,16 @@
     </section>
 
     <section class="process container">
-        <div>
+        <div class="process-text">
             <h2>Quick & Easy Process</h2>
-        <p>Most calendars are designed for teams. Slate is designed for freelancers who want a simple way to plan their schedule.</p>
-            <a class="button" href="#">sign up for free</a>
-            <a class="button" href="#">find out more</a>
+            <p>Most calendars are designed for teams. Slate is designed for freelancers who want a simple way to plan their schedule.</p>
+            <div class="process-text-button">
+                <a class="button active" href="#">sign up for free</a>
+                <a class="button next" href="#">find out more</a>
+            </div>
         </div>
         <div>
-            <img src="#" alt="graphics">
+            <img src="../img/screen2.png" alt="graphics">
         </div>
     </section>
 
@@ -69,7 +84,7 @@
         <div>
             <img src="#" alt="List">
         </div>
-        <div>
+        <div class="finance-text">
             <h2>Perfect for Operations HR and Finance</h2>
             <p>Most calendars are designed for teams. Slate is designed for freelancers who want a simple way to plan their schedule.</p>
             <a class="button" href="#">Button</a>
@@ -77,11 +92,13 @@
     </section>
 
     <section class="business container">
-        <div>
+        <div class="business-text">
             <h2>Perfect solution for small businesse</h2>
             <p>Being a freelancer is a rollercoaster of emotions. We built Slate to keep your freelance business less stressful. We'd love to show you what we're building...</p>
-            <a class="button" href="#">sign up for free</a>
-            <a class="button" href="#">find out more</a>
+            <div class="business-text-button">
+                <a class="button activ" href="#">sign up for free</a>
+                <a class="button next" href="#">find out more</a>
+            </div>
         </div>
         <div>
             <img src="#" alt="meeting">
@@ -94,7 +111,7 @@
         <ul class="Pricing-item">
             <li>
                 <h3>Education</h3>
-                <p>Brief price Description</p>
+                <h4>Brief price Description</h4>
                 <img src="#" alt="">
                 <p>0$ Per/ month</p>
                 <p>Only 2 Operators</p>
@@ -158,4 +175,4 @@
 
 </footer>
 
-@@include('parts/footer.html')
+</body>

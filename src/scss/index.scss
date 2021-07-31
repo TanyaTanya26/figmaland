@@ -1,4 +1,13 @@
 
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+li{
+    list-style-type: none;
+}
 
 .container{
     max-width: 1583px;
@@ -18,6 +27,7 @@
     padding: 30px 190px 85px;
     background: linear-gradient(230.95deg, #CB1AE8 -0.37%, #37BDA6 100%);
 }
+
 .main-nav{
     display: flex;
     justify-content: space-between;
@@ -25,8 +35,8 @@
     font-size: 15px;
     color: #FFFFFF;
     line-height: 27px;
-    
 }
+
 .main-header-logo{
     justify-content: left;
 }
@@ -39,15 +49,29 @@
     margin: 0 auto;
 
 }
-
+/*--management--*/
 .management{
     padding: 60px 156px;
 }
 
 .management h2{
+    max-width: 765px;
+    margin: 0 auto;
     text-align: center;
     padding-bottom: 100px;
+    font-weight: 500;
+    font-size: 46px;
+    line-height: 57px;
+    color: #000000;
 }
+
+.management-list{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
 .management li{
     align-items: flex-start;
     padding: 40px 50px;
@@ -57,40 +81,205 @@
     /* shadow */    
     box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
     border-radius: 10px;
-    margin: 0 31px;
+    margin-right: 31px;
 }
+
+.management-list h3{
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 33px;
+    padding: 40px 0 30px;
+    margin: 0;
+    color: #000000;
+}
+
+.management-list p{
+    font-size: 18px;
+    line-height: 27px;
+    color: #5C5C5C;
+}
+
+.management-list a{
+    font-size: 15px;
+    line-height: 27px;
+    color: #03D6F3;
+}
+
+.management-list-li.activ p, 
+.management-list-li.activ h3,
+.management-list-li.activ a{
+    color: #FFFFFF;
+}
+
+.management-list-li:hover,
+.management-list-li.activ {
+    background: linear-gradient(230.95deg, #CB1AE8 -0.37%, #37BDA6 100%);
+    border: 1px solid #DEDEDE;
+    color: #FFFFFF;
+}
+
+.management-list-li h3:hover{
+    color: #FFFFFF;
+}
+/*--!management--*/
+
+/*--process--*/
 .process {
     padding: 110px 240px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly
 }
+
+.process-text {
+    width: 500px;
+    padding-right: 100px;     
+}
+
+.process-text h2{
+    margin: 0;
+    font-weight: 500;
+    font-size: 46px;
+    line-height: 57px;
+    color: #000000;
+    padding-bottom: 45px;
+}
+
+.process-text p{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px; 
+    color: #5C5C5C; 
+    margin: 0;
+    padding-bottom: 36px;
+}
+
+.process-text-button {
+    display: flex;
+}
+
 .button {
     border: 1px solid #30D7BA;
     margin-right: 22px;
+    color: #30D7BA;
 }
+
+.process-text-button a.active,
+.button.next:hover {
+    background: #03D6F3;
+    color: #FFFFFF;
+}
+/*--!process--*/
+
+/*--finance--*/
 .Finance {
     display: flex;
     justify-content: space-between;
     padding: 110px 220px;
 }
+.finance-text {
+    width: 525px;
+    padding-left: 100px;
+}
+.finance-text h2{
+    margin: 0;
+    font-weight: 500;
+    font-size: 46px;
+    line-height: 57px;
+    color: #000000;
+}
+.finance-text p{
+    margin: 0;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 47px 0 37px;
+}
+.finance-text a{
+    background: #03D6F3;
+    color: #FFFFFF;
+}
+
+/*--finance--*/
+
+/*--business--*/
 .business {
     display: flex;
     justify-content: space-between;
     padding: 73px 164px;
 }
+.business-text {
+    width: 500px;
+    margin: 0;
+
+}
+.business-text h2{
+    font-weight: 500;
+    font-size: 46px;
+    line-height: 57px;
+}
+.business-text p{
+    margin: 0;
+    font-size: 18px;
+    line-height: 27px;
+    color: #5C5C5C;
+    padding: 47px 0 37px;
+}
+.business-text-button {
+    display: flex;
+}
+.business-text-button a.activ,
+.business-text-button.next:hover{
+    background: #03D6F3;
+    color: #FFFFFF;
+}
+/*--!business--*/
+
+/*--pricing--*/
 .Pricing {
     padding: 50px 256px 85px;
     text-align: center;
 }
-
+.Pricing h2{
+    font-weight: 500;
+    font-size: 46px;
+    line-height: 57px;
+    margin: 0;
+    padding: 50px 0 30px;
+}
+.Pricing p{
+    font-size: 18px;
+    line-height: 27px;
+    margin: 0;
+    padding-bottom: 63px;
+}
 .Pricing-item{
+    margin: 0;
+    padding: 0;
     display: flex;
-    justify-content:space-between;
+    justify-content:space-evenly;
 
 }
 .Pricing-item li{
     width: 335px;
     border: 1px solid #DEDEDE;
+    padding: 50px 0 40px;
+}
+.Pricing-item li+li{
+    padding-left: 33px;
+}
+.Pricing-item li.h3 {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 33px;
+    color: #000000;
+}
+.Pricing-item li.p {
     font-size: 15px;
     line-height: 27px;
+    color: #000000;
 }
+.Pricing-item a{
+    background: #03D6F3;
+    color: #FFFFFF;
+}
+/*--!pricing--*/
